@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Mini Project</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #particles-js {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 90vh;
+            background-color: #a9a8a8;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+
+        header, footer {
+            position: relative;
+            z-index: 100;
+            background-color: #464545;
+        }
+
+        header ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0;
+        }
+
+        header ul li {
+            list-style: none;
+            color: #fff;
+            padding: 0 .5rem;
+        }
+
+        .container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .box-info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 0 #5f5f5f;
+        }
+
+        footer ul {
+            background-color: #464545;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer ul li {
+            list-style: none;
+            color: #fff;
+            padding: 0 .5rem;
+        }
+    </style>
+</head>
+<body>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<header>
+    <ul>
+        <li>Front End</li>
+        <li>Back End</li>
+        <li>Internet Of Things</li>
+        <li>UI/UX</li>
+        <li>Design Graphic</li>
+        <li>Video Graphic</li>
+    </ul>
+</header>
+<section class="container">
+    <div class="box-info">
+        <div class="introduction">
+            Hello World! Let me introduce myself. I’m Dwiki Nuri Dhuha from Indonesia & I’m Muslim – Football Fan –
+            Computer Geek – Front End Developer – Back End Developer – Internet of Thinking Developer – Workaholic –
+            Life Long Learner – Introvert. 👋
+        </div>
+        <br/>
+        <div class="services">
+            By the way, I provide free application creation and design/video graphic services for activities related
+            to the Islamic religion or related to education, as long as I have the ability to do so. My goal is to
+            contribute to the dissemination of useful knowledge and facilitate access to Islamic religion and education
+            as a
+            media asset for Jariyah charities. If you have a project or activity that requires support in the form of
+            applications or design/video graphic, please do not hesitate to contact me. Let’s collaborate to create
+            educational resources that can help people. 😊
+        </div>
+        <br/>
+        <div>
+            I use this website as a showcase for my personal hobby projects or the results of tutorials I follow.
+            Enjoy browsing this website. 🥰
+        </div>
+    </div>
+</section>
+<footer>
+    <ul>
+        <li>LinkedIn</li>
+        <li>Facebook</li>
+        <li>Blog</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+        <li>Pinterest</li>
+        <li>WhatsApps</li>
+        <li>Telegram</li>
+    </ul>
+</footer>
+
+
+<script src="particles.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
